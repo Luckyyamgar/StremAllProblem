@@ -1,5 +1,8 @@
 package foreach.loop;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class ForEaCH {
 	public static void main(String[] args) {
 		int[] number = {12, 17, 2, 6, 25, 8, 7 };
@@ -21,5 +24,16 @@ public class ForEaCH {
 			 String va=value[i];
 			System.out.println(va+" ");
 		}
+		//modifier Array List
+		       List<Integer> arr = Arrays.asList(12,14,15,15);
+		       
+		       System.out.println(arr);
+		       for(int Arrs:arr) {
+		    	   System.out.println(Arrs);
+		       }
+		
+		
 	}
+	
+	
 }
