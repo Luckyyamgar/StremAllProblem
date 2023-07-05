@@ -1,7 +1,5 @@
 package methodReferences;
 
-import java.util.function.BiFunction;
-
 public class Test {
 	public static void main(String[] args) {
 		Room room = Home::flower;

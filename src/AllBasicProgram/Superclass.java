@@ -10,8 +10,8 @@ public class Superclass {
 
 class Sub extends Superclass {
 	public void tractor() {
-		this.car(); // refer to the method of parient class  // o/p BMW car
-		super.car();//o/p Forctuner car
+		this.car(); // refer to the method of current  class  // o/p BMW car
+		super.car();//o/p Forctuner car              // Refer to the method Parrent class object
 		System.out.println("Arjun 555");
 	}
 

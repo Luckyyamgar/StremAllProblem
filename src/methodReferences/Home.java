@@ -6,6 +6,6 @@ public class Home {
     	 
      }
     public static void flower2() {
-    	System.out.println("It is 2 Bhk");
+    	System.out.println("It is 2 BHk");
     }
 }

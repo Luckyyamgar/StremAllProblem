@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class SuppressWarning {
 	@SuppressWarnings("unchecked")
-public static void main(String[] args) {
+public static void main(String[] args) throws InterruptedException {
 	
 	ArrayList arr=new ArrayList<>();
 	arr.add("Subhedar");
@@ -22,6 +22,7 @@ public static void main(String[] args) {
 		list.add("KEC");
 		//System.out.println(list);
 		for(String s:list) {
+		Thread.sleep(1000);
 			System.out.println(s);
 		}
 		

@@ -16,7 +16,7 @@ class Employee{
 		System.out.println("cat mawo mawo");
 	}
 	public static void main(String[] args) {
-		   cat();
+		  Employee. cat();
 		   Static.car();
 		   Static .home();
 	}

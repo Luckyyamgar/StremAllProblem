@@ -13,11 +13,13 @@ public class Stringproblem {
 		System.out.println(br);
 		
 		System.out.println("_____________________________________________________________________________________________");
-		
+		String s="Lucky";
 		String s1=new String("Lucky");
 		String s2=new String("Lucky");
 		System.out.println(s1==s2);//false  checking memory location
 		System.out.println(s1.equals(s2)); //true  //checking contrnt comparisum
+		System.out.println(s==s1);//False
+		System.out.println("what is Actual=="+s.equals(s1));//true
 		System.out.println("__________________________________________________");
 		
 		StringBuffer s3= new StringBuffer("lucky");

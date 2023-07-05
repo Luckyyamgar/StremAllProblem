@@ -22,6 +22,7 @@ public class ForEaCH {
 		for (int i = 0; i < value.length; i++) {
 
 			 String va=value[i];
+			 
 			System.out.println(va+" ");
 		}
 		//modifier Array List
